@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 36px;
+    }
+
+    .view {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px;
+      gap: 10px;
+    }
+
+    #one {
+      background-color: #ef516d
+    }
+
+    #two {
+      background-color: aquamarine
+    }
+
+    #three {
+      background-color: darkturquoise
+    }
+  </style>
+</head>
+<body>
+<div id="one" class="view">
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, earum fugit nam quia saepe sequi? Adipisci
+    aspernatur fugit illo maxime non quisquam quos rem suscipit, voluptas voluptates? Laborum, molestiae sint!</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus dicta ducimus eius eos est fugiat harum
+    hic illum magnam quaerat quibusdam rem reprehenderit saepe suscipit ullam, veniam vitae, voluptates?</p>
+  <h2>
+    <a href="#two">&#8615;</a>
+  </h2>
+</div>
+<div id="two" class="view">
+  <h2>
+    <a href="#one">&#8613;</a>
+  </h2>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa dicta dignissimos, doloremque eum laboriosam
+    neque numquam quidem ut? Accusantium debitis dicta doloribus itaque natus nemo omnis quasi, quibusdam
+    tempora.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid animi cupiditate doloremque dolores
+    eos est expedita quasi rem repellat. At ipsa itaque laborum nisi odit quo repudiandae veritatis
+    voluptatibus!</p>
+  <h2>
+    <a href="#three">&#8615;</a>
+  </h2>
+</div>
+<div id="three" class="view">
+  <h2>
+    <a href="#two">&#8613;</a>
+  </h2>
+  <h2>Lorem ipsum</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab aliquam, assumenda at autem culpa distinctio est
+    excepturi, id laboriosam libero natus nesciunt nostrum nulla officiis quod sint voluptates voluptatum.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi eligendi ipsa minus natus nostrum porro quae
+    recusandae voluptates? Beatae esse eum itaque magni natus nostrum rem veniam veritatis, voluptas
+    voluptatibus?</p>
+</div>
+
+</body>
+</html>

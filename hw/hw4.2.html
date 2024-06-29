@@ -1,10 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        body{
+            margin: 0;
+        }
+        .slaid{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: 10px;
+            padding: 100px 0;
+        }
+        #red{
+            background-color: #a42a3f;
+        }
+        #blue{
+            background-color: #70ecb6;
+        }
+        #green{
+            background-color: #97ef6d;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+        .Countent{
+            height: 150px;
+            background-color: #5c615c;
+            padding: 0 640px ;
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
 </head>
 <body>
+<div class="Countent" id="grey">
+<h1>Countent</h1>
 
+    <a href="#red">Section 1</a>
+    <a href="#blue">Section 2</a>
+    <a href="#green">Section 3</a>
+</div>
+<div class="slaid" id="red">
+    <a href="#grey">&#9650;</a>
+    <h2>Section 1</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad at corporis dolor ducimus eos magni, minus nam nisi odio officiis provident recusandae repellat repudiandae rerum sapiente similique velit veniam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta illo molestiae molestias nam necessitatibus nemo repellat tempore vitae! Ad, veritatis.</p>
+    <a href="#blue">&#9660;</a>
+</div>
+<div class="slaid" id="blue">
+    <a href="#red">&#9650;</a>
+    <h2>Section 2</h2>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur cum dolor eos impedit iure, porro quas reprehenderit temporibus! Eius, itaque nemo. Amet, blanditiis consequatur, eius eos est explicabo facere illo impedit ipsam iste iusto obcaecati, quia quis repellat ut voluptas.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda dicta distinctio dolore ea, est excepturi fugiat harum hic itaque laborum molestiae nulla officia omnis praesentium, quidem ratione, sed soluta.</p>
+    <a href="#green">&#9660;</a>
+</div>
+<div class="slaid" id="green">
+    <a href="#blue">&#9650;</a>
+    <h2>Section 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, similique.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi ipsa necessitatibus quae tenetur. Accusamus atque laudantium placeat, porro quisquam voluptatem.</p>
+
+</div>
 </body>
 </html>
