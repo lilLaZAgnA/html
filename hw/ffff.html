@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blocks</title>
+    <style>
+        body {padding: 5vh}
+        div {
+            background-color: dodgerblue;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        .main {justify-content: center;}
+        .sec {
+            background-color: transparent;
+            gap: 5vh;
+            justify-content: space-between;
+        }
+        .inner {
+            background-color: darkblue;
+            height: 27vw;
+            width: 27vw;
+        }
+        #head {
+            margin-bottom: 5vh;
+            height: 50vh;
+        }
+        #content {
+            margin-top: 5vh;
+            height: 90vh;
+        }
+    </style>
+</head>
+<body>
+<div id="head" class="main"><h2>Widgets</h2></div>
+<div class="sec">
+    <div class="inner main"><h4>Big Widgets</h4></div>
+    <div class="inner main"><h4>Bigger Widgets</h4></div>
+    <div class="inner main"><h4>Huge Widgets</h4></div>
+</div>
+<div id="content" class="main"><h2>Contacts</h2></div>
+</body>
+</html>
