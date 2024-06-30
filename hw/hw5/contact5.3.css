@@ -54,9 +54,17 @@ section{
 section h2{
     color: #0b290b;
 }
+section h2:hover{
+    color: #5c615c;
+    transition: 1s;
+}
 section p{
     margin-top: 10px;
+    text-decoration: none;
 }
 .location{
     font-size: 10px;
+}
+a{
+    text-decoration: none;
 }
