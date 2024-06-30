@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -35,4 +36,27 @@ header nav ul a{
 header nav ul a:hover{
     transition: 1s;
     color: #0b290b;
+}
+/*----------------------------Section------------------------*/
+section{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 0px;
+    background-image: url("mountain-4950653_960_720.jpg");
+    background-size: cover;
+    height: 90vh;
+    gap: 20px;
+}
+section h2{
+    color: #0b290b;
+}
+section p{
+    margin-top: 10px;
+}
+.location{
+    font-size: 10px;
 }
