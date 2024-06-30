@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/*header*/
+header{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 10vh;
+    text-decoration: none;
+}
+
+header nav{
+     width: 60%;
+}
+nav ul{
+     width: 100%;
+     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #0b290b;
+}
+
