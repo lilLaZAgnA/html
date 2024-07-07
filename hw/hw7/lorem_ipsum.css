@@ -47,13 +47,14 @@ header{
 
 /*------------------------main------------------------*/
 main {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("img/photo_2024-07-03_16-33-00.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /*padding: 105px 0 87px 0;*/
 }
 iframe{
     width: 949px;
