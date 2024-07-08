@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  <style>
+      body{
+          display: flex;
+          justify-content: center;
+          padding-top:200px ;
+      }
+      .header{
+          height: 600px;
+          width: 550px;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border: 1px solid;
+      }
+    .inst{
+      height: 150px;
+      width: 300px;
+    }
+    input{
+      display: block;
+      height: 50px;
+      width: 450px;
+        font-size: 18px;
+    }
+    a{
+        text-decoration: none;
+        font-size: 25px;
+        color: #01496e;
+    }
+    .face{
+        height: 40px;
+        width: 40px;
+        margin-bottom: -12px;
+    }
+    button{
+        height: 50px;
+        width: 450px;
+        border-radius: 12px;
+        border: none;
+        font-size: 25px;
+        background-color: #50a9df;
+        color: #dfdddd;
+    }
+    .password_for{
+        font-size: 20px;
+    }
+    .footer{
+        height: 100px;
+        width: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid;
+        margin-top: 20px;
+    }
+.register{
+    color: #50a9df;
+}
+.footer_text{
+    font-size: 23px;
+}
+  </style>
+</head>
+<body>
+<div>
+  <div class="header">
+    <img src="img/Logo-Instagram.png" class="inst">
+    <input type="text" name="name" placeholder="Номер телефону, імя користувача або email" required>
+    <br>
+    <input type="password" name="password" placeholder="Пароль" required>
+    <br>
+    <br>
+    <button>Увійти</button>
+    <br>
+    <p style="color: #5c615c"><b>АБО</b></p>
+      <a href="#"><img src="img/icons8-facebook-48.png" class="face"> <b>Увійти через Facebook</b></a>
+<br>
+      <br>
+      <a href="hw9.1.html" class="password_for"><b>Забули пароль?</b></a>
+  </div>
+
+
+  <div class="footer">
+      <p class="footer_text"> <b>Не маєте облікового запису? <a href="№" class="register">Зареєструйтеся</a></b></p>
+  </div>
+</div>
+</body>
+</html>
