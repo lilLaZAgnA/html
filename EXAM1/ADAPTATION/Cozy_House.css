@@ -25,9 +25,6 @@ header{
     gap: 573px;
     padding-top: 60px;
     }
-/*header nav{*/
-/*    width: 50%;*/
-/*    }*/
 nav ul {
     width: 100%;
     display: flex;
@@ -37,15 +34,6 @@ nav ul {
     gap: 35px;
     padding-top: 60px;
 }
-/*.Cozy_house{*/
-
-/*    position: absolute;*/
-/*    left: 40px;*/
-/*}*/
-/*.nav {*/
-/*position: absolute;*/
-/*right: 40px;*/
-/*}*/
 h3{
     color: var(--color-primary, #F1CDB3);
     font-family: Georgia;
@@ -89,8 +77,6 @@ a{
     height: 728px;
 }
 .text_1{
-    /*position: absolute;*/
-    /*left: 40px;*/
     display: flex;
     width: 460px;
     flex-direction: column;
@@ -162,7 +148,6 @@ h2{
     }
 .about{
     color: var(--color-dark-xl, #4C4C4C);
-    /* paragraph-l */
     font-family: Arial;
     font-size: 15px;
     font-style: normal;
@@ -206,7 +191,6 @@ h2{
     color: #545454;
 
     text-align: center;
-    /* pets-card-title */
     font-family: Georgia;
     font-size: 20px;
     font-style: normal;
@@ -256,16 +240,9 @@ h2{
 /*----------------------------------------------PAGE-4---------------------------------------------*/
 .slide_2{
     /*display: flex;*/
-    /*/*height: 431px;*/*/
-    /*padding: 0px 87px;*/
-    /*/*flex-direction: column;*/*/
-    /*justify-content: center;*/
-    /*margin-bottom: 100px;*/
-
-    display: flex;
     padding: 60px 120px 100px 120px;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
 }
 .help_title{
     color: var(--color-dark-l, #545454);
@@ -310,3 +287,87 @@ h2{
     letter-spacing: 1.2px;
 }
 /*-------------------------------------------------------PAGE-5-------------------------------------------------*/
+.slide_3{
+    display: flex;
+    height: 282px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+    margin: 80px 183px 100px 183px;
+}
+.donation_dog{
+    width: 505px;
+    height: 261px;
+    flex-shrink: 0;
+}
+.donation{
+    color: var(--color-dark-l, #545454);
+    /* h3 */
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.bank{
+    color: var(--color-dark-l, #545454);
+    font-family: Georgia;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button_4{
+    display: flex;
+    padding: 10px 15px;
+
+    align-items: center;
+    gap: 15px;
+    border-radius: 9px;
+    background: var(--color-primary, #F1CDB3);
+    color: var(--color-dark-l, #545454);
+    /* h4 */
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.credit{
+    width: 30px;
+    height: 23px;
+    flex-shrink: 0;
+    fill: var(--color-dark-3xl, #292929);
+}
+.text_2{
+    color: var(--color-dark-m, #B2B2B2);
+
+    /* donation-description */
+    font-family: Arial;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+/*------------------------------------------------PAGE-6-----------------------------------------*/
+.footer{
+    background-size: cover;
+    background-image: url("img/footer-gradient-background.png");
+    padding: 40px 40px 0 40px ;
+}
+.block{
+    height: 310px;
+    border: #a30505 1px solid;
+}
