@@ -365,9 +365,56 @@ h2{
 .footer{
     background-size: cover;
     background-image: url("img/footer-gradient-background.png");
-    padding: 40px 40px 0 40px ;
+    padding: 40px 40px 0 40px;
 }
 .block{
     height: 310px;
-    border: #a30505 1px solid;
+    width: 1200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 161px;
+    margin: 0 auto 0 auto;
+}
+.contact{
+    display: flex;
+    min-width: 278px;
+    padding-right: 0px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+.footer_puppy{
+    width: 300px;
+    height: 310px;
+    flex-shrink: 0;
+}
+.contact_h3{
+    color: var(--color-light-xl, #FFF);
+    /* h3 */
+    font-family: Georgia;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+    margin: 0;
+}
+.contact_contact{
+    color: var(--color-primary, #F1CDB3);
+    /* h4 */
+    font-family: Georgia;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
