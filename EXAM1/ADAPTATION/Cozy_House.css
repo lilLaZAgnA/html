@@ -260,8 +260,6 @@ h2{
 }
 .Icons_help{
     height: 281px;
-    flex-shrink: 0;
-    flex-shrink: 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
