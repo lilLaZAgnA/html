@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+/*------------------------------------------HEADER-sl-1------------------------------------------------*/
+body{
+    background: #02061A;
+    height: 4976px;
+}
+.svg{
+    background: rgba(84, 197, 173, 0.95);
+    filter: blur(217px);
+    width: 590px;
+    height: 594px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -245px;
+    left: -100px;
+}
+.header{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 47px;
+    list-style-type: none;
+    /*margin: 102px 187px 0 833px ;*/
+    position: absolute;
+    top: 102px;
+    left: 833px;
+    right: 187px;
+}
+.header_crypto{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 92px;
+    left: 192px;
+    margin: 0;
+    list-style-type: none;
+}
+/*------------------------------------------MAIN-sl-2------------------------------------------------*/
+
+.h3{
+    width: 530px;
+    /*height: 360px;*/
+    /*position: absolute;*/
+    /*top: 453px;*/
+    /*margin-left: 183px;*/
+    /*margin: 453px 0 0 auto;*/
+    display: flex;
+    gap: 31px;
+    flex-direction: column;
+    margin-top: 102px;
+}
+.h3_Des{
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 522px;
+    height: 233px;
+    margin: 0;
+}
+.button_1{
+    width: 256px;
+    height: 95px;
+    display: inline;
+    margin: 0;
+    border-radius: 50px;
+    background: #23263C;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+.button_2{
+    width: 256px;
+    height: 95px;
+    display: inline;
+    margin: 0;
+    border-radius: 50px;
+    background: none;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    border: #23263C 3px solid;
+}
+main{
+    height: 95px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+}
+.nft_img{
+    /*position: absolute;*/
+    /*top: 315px;*/
+    /*left: 700px;*/
+    /*right: 224px;*/
+    /*margin: 315px auto 0 0;*/
+    width: 467.417px;
+    height: 461.312px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.main_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 315px auto 0 auto;
+    padding-top: 188px;
+ }
+/*---------------------------------------------sl-3------------------------------------------------*/
+
+h4{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 238px;
+    height: 38px;
+    margin: 0 0 0 -15px;
+
+}
+.FEATURED{
+    width: 1065px;
+    height: 125px;
+    background: #23263C;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 138px;
+    align-items: center;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Outfit;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    border: 1px #5BD2BD solid;
+    margin: 8px auto 0 auto;
+}
+.sl-3{
+    width: 1065px;
+    margin: 216px auto 0 auto;
+}
+/*---------------------------------------------sl-4------------------------------------------------*/
+
+.nft_img2{
+    width: 428px;
+    height: 480px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
